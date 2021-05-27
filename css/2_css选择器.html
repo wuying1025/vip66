@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 内部样式 -->
+    <style>
+        /* css选择器
+            标签选择器  div
+            id选择器   #div1
+            class选择器  .aa
+            后代选择器  #ul1 .aa
+            伪类选择器
+            :hover{
+                
+            }
+        */
+        /* div{
+            color:#00f;
+
+        } */
+        /* id是唯一 一个页面中id不能重名 */
+        #div1{
+            background: aqua;
+        }
+        /* li{
+            background: #0f0;
+        } */
+        /* class 选择器 */
+        /* .a{
+            background: blueviolet;
+        } */
+        /* 后代选择器 */
+        #ul1 .a{
+            background: brown;
+        }
+        /* 伪类选择器 */
+        a:hover{
+            color: red;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">111</div>
+    <div>222</div>
+    <p>jj</p>
+
+    <ul id="ul1">
+        <li>111</li>
+        <li class="a">222</li>
+        <li class="a">333</li>
+    </ul>
+    <ul id="ul2">
+        <li>111</li>
+        <li class="a">222</li>
+        <li class="a">333</li>
+    </ul>
+    <a href="#">baidu </a>
+</body>
+</html>
