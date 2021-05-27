@@ -11,7 +11,6 @@
             /* background: red; */
             width:800px;
             height:500px;
-
             /* 背景 */
             background-color: red;
             background-image: url(../img/b.png);
@@ -19,10 +18,6 @@
             /* 水平 垂直 */
             background-position:-200px 100px;
             background: red url(../img/b.png) no-repeat -200px 100px;
-
-
-
-
         }
         #div2{
             /* 字体  默认字体16px  */
@@ -32,20 +27,46 @@
             /* 字体风格 normal|italic*/
             font-style: italic;
             font-family:'Times New Roman', Times, serif;
-
             /* 颜色 */
             color: red;
-
-
+        }
+        /* 文本相关 */
+        #div4{
+            width: 500px;
+            height: 50px;
+            background: yellow;
+            /* 文本对齐方式 left center right*/
+            text-align: left;
+            /* 单行文本垂直居中 line-height  = height */
+            line-height:50px ;
+            /* 文本缩进 */
+            text-indent: 100px;
 
         }
+        a{
+            /* 文本装饰 underline|none|line-through */
+            text-decoration: line-through;
+        }
+        /* 列表 */
+        ul{
+            list-style:none;
+        }
+
     </style>
 </head>
 <body>
     <div id="div1">法国红酒考虑</div>
     <div id="div2">哈哈哈哈哈had号开始</div>
     <div>哈哈哈哈哈had号开始</div>
+    <div id="div4">
+        电饭锅和健康唠嗑了；
+    </div>
 
+    <a href="#">百度</a>
+    <ul>
+        <li>111</li>
+        <li>222</li>
+    </ul>
     
 </body>
 </html>
